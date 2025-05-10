@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Constants for drawing area boundaries
+// Constants for drawing area boundarie
 const int DRAW_LEFT =5;
 const int DRAW_TOP =5;
 const int DRAW_RIGHT =99;
