@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Constants for drawing area boundarie
+// Constants for drawing area boundaries
 const int DRAW_LEFT =5;
 const int DRAW_TOP =5;
 const int DRAW_RIGHT =99;
@@ -147,7 +147,7 @@ public:
             setCursorToPosition(x, y);
             cout << symbol;
 
-            this_thread::sleep_for(chrono::milliseconds(30)); // Smoothness
+            this_thread::sleep_for(chrono::milliseconds(30)); 
         }
     }
 };
